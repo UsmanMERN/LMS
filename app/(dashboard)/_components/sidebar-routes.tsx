@@ -21,6 +21,9 @@ function SidebarRoutes() {
             {routes.map((route) => (
                 <SidebarItems
                     key={route.href}
+                    icon={route.icon}
+                    label={route.label}
+                    href={route.href}
                 />)
             )}
         </div>
