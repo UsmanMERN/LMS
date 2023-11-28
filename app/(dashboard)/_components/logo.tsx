@@ -3,7 +3,7 @@ import Image from "next/image"
 
 function Logo() {
     return (
-        <Image height={130} width={130} priority={false} alt="logo" src={"./logo.svg"} />
+        <Image height={90} width={90} priority={false} alt="logo" src={"/logo.svg"} />
     )
 }
 
